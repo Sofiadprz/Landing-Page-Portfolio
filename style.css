@@ -1,19 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200;1,400;1,500&family=Raleway:wght@200;300&display=swap");
 
-*{ /*Aca vamos a sacarv los valore predeterminados de html*/
+ *{ /*Aca vamos a sacarv los valore predeterminados de html */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
+    /* display: flex;
+    height: 100vh; */
     font-family: "Montserrat",sans-serif;
     overflow: hidden;
 }
 
 .wrapper{
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
      background-color:#C3E8BD  ; 
     color:#54426B ;
 }
@@ -90,38 +92,3 @@ p{
         /* border: 3px solid #EF798A ; */
         height: 380px;
 }
-
-
-/*
-
-footer{
-    width: 100%;
-    height: 80px;
-    background-color:#C3E8BD ;
-    display: flex;
-    justify-content: space-around;
-}
-
-.iconos{ 
-    width: 30px;
-    height: 30px;
-
-}
-
-.ul-footer{
-    display: flex; /*El valor flex nos permitira poner las listas una al lado de la otra*/
-    /* width: 50%;
-    justify-content: space-around ;
-}
-
-footer li{
-    margin-top: 30px;
-    list-style: none;
-} */
-
-
-/* .listas-footer{
-    /* display: flex;
-    justify-content: space-between; 
-    
-} */
