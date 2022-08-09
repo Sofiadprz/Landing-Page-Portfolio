@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200;1,400;1,500&family=Raleway:wght@200;300&display=swap");
+
+*{ /*Aca vamos a sacarv los valore predeterminados de html*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat",sans-serif;
+    overflow: hidden;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vw;
+     background-color:#C3E8BD  ; 
+    color:#54426B ;
+}
+
+.brand{
+    margin-top: -7px;
+}
+
+.brand span {
+    color: #B09E99;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.menu{
+    display: flex; /*El valor flex nos permitira poner las listas una al lado de la otra*/
+    width: 50%;
+    justify-content: space-around ; /*El valor space arouns pone espacio entre los elementos(listas en este caso)*/
+}
+
+.menu li{
+    list-style: none;  /*para que se quiten las bolitas de las listas */
+
+}
+
+.menu a {
+    color: white ;
+    text-decoration: none; /* para sacar el subrayado de las listas */
+}
+
+.menu .active{
+    color: #E5989B;
+}
+
+.menu a:hover{
+   background-color: #F3DE8A; /* Es para que cuando pase el mouse por las listas cambien el fondo de color*/
+   color: #7E7F9A;/*Para que cuando pase el cursor cambien el color de las letras*/
+   padding: 8px 20px; /* Con esto logre "animar" los elementos listas */
+   transition: ease-in .3s;
+}
+
+
+
+main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+
+}
+h2{
+    color: #EF798A;
+    font-size: 3em;
+    display: inline-block;
+}
+
+h2 span{
+   color: #54426B;
+}
+
+p{
+    color: white;
+}
+
+.main img{
+        width: 280px;
+        /* border: 3px solid #EF798A ; */
+        height: 380px;
+}
+
+
+/*
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color:#C3E8BD ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconos{ 
+    width: 30px;
+    height: 30px;
+
+}
+
+.ul-footer{
+    display: flex; /*El valor flex nos permitira poner las listas una al lado de la otra*/
+    /* width: 50%;
+    justify-content: space-around ;
+}
+
+footer li{
+    margin-top: 30px;
+    list-style: none;
+} */
+
+
+/* .listas-footer{
+    /* display: flex;
+    justify-content: space-between; 
+    
+} */
